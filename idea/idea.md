@@ -217,3 +217,7 @@ activity中调用
             return super.onInterceptTouchEvent(arg0);
     }
 ```
+这里再记录一下recyclerview和scrollview 冲突的问题<br />
+直接使用NestedScrollView包裹recyclerview<br />
+在代码上写 recyclerview.setNestedScrollingEnabled(false);
+就解决了

@@ -6,7 +6,7 @@
 ```compile
 compile 'com.github.YRInred:LooperRecView:1.0'
 ```
-## 实现思路(https://github.com/YRInred/LooperRecView/blob/master/idea/idea.md)
+## [实现思路](https://github.com/YRInred/LooperRecView/blob/master/idea/idea.md)
 ## 使用方法
 ### 在xml文件中添加
 ```xml

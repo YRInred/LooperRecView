@@ -31,6 +31,6 @@ compile 'com.github.YRInred:LooperRecView:1.0'
 ```java
 LooprecAdapter(int layoutResId, @Nullable List data, int showitemnum)
 ```
-默认5个 \n /n
+默认5个 ![]
 目前这个recyclerview不能手动滑动 不用添加layoutmanager 目前只能改变滑动速度 
 轮子给你照了 怎么搭配车自己想一下

@@ -198,3 +198,22 @@ activity中调用
         noscroll_rec.onResume();
     }
 ```
+因为这个控件是不需要手动控制滑动的 所以我们的自定义recyclerview要禁止手动滑动事件
+```java
+   @Override
+    public boolean onTouchEvent(MotionEvent arg0) {
+        /* return false;//super.onTouchEvent(arg0); */
+        if (noScroll)
+            return false;
+        else
+            return super.onTouchEvent(arg0);
+    }
+
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent arg0) {
+        if (noScroll)
+            return false;
+        else
+            return super.onInterceptTouchEvent(arg0);
+    }
+```

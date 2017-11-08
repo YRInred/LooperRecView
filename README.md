@@ -1,13 +1,13 @@
 # LooperRecView
-一个匀速循环展示item的小项目
-# 展示效果
+一个匀速循环展示item的小控件
+## 展示效果
 ![img](https://github.com/YRInred/LooperRecView/blob/master/01074.gif)
-# 添加依赖
+## 添加依赖
 ```compile
 compile 'com.github.YRInred:LooperRecView:1.0'
 ```
-# 使用方法
-## 在xml文件中添加
+## 使用方法
+### 在xml文件中添加
 ```xml
     <com.inred.looperrecview.NoScrollRecyclerView
         android:id="@+id/noscroll_rec"
@@ -20,7 +20,7 @@ compile 'com.github.YRInred:LooperRecView:1.0'
         android:orientation="vertical"
         app:speed="20"/>
 ```
-## 在java文件中添加
+### 在java文件中添加
 ```java
         noscroll_rec = findViewById(R.id.noscroll_rec);
         LooperAdapter adapter = new LooperAdapter(getList());

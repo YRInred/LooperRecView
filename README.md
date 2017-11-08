@@ -26,10 +26,18 @@ compile 'com.github.YRInred:LooperRecView:1.0'
         LooperAdapter adapter = new LooperAdapter(getList());
         noscroll_rec.setAdapter(adapter);
 ```
+在onresume里面启动
+```java
+         @Override
+            public void onResume() {
+              super.onResume();
+              noscroll_rec.onResume();
+            }
+ ```
 注意你使用的LooperAdapter 必须继承 LooprecAdapter
 根据你显示的item数量初始化adapter 继承下面构造函数  默认5个
 ```java
-LooprecAdapter(int layoutResId, @Nullable List data, int showitemnum)
+          LooprecAdapter(int layoutResId, @Nullable List data, int showitemnum)
 ```
 
 目前这个recyclerview不能手动滑动 不用添加layoutmanager 目前只能改变滑动速度 

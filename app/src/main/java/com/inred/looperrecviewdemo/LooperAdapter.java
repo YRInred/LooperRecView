@@ -14,12 +14,6 @@ import java.util.List;
 public class LooperAdapter extends LooprecAdapter<String, BaseViewHolder> {
 
 
-    @Override
-    public int getItemCount() {
-
-        return super.getItemCount();
-    }
-
     public LooperAdapter(@Nullable List<String> data) {
         super(R.layout.layout_rec_item, data);
     }

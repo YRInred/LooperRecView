@@ -27,4 +27,5 @@ compile 'com.github.YRInred:LooperRecView:1.0'
         noscroll_rec.setAdapter(adapter);
 ```
 注意你使用的LooperAdapter 必须继承 LooprecAdapter
-目前这个recyclerview不能手动滑动 不用添加manager 只能改变滑动速度 后期会增加
+目前这个recyclerview不能手动滑动 不用添加layoutmanager 目前只能改变滑动速度 
+轮子给你照了 怎么搭配车自己想一下

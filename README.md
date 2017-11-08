@@ -27,10 +27,10 @@ compile 'com.github.YRInred:LooperRecView:1.0'
         noscroll_rec.setAdapter(adapter);
 ```
 注意你使用的LooperAdapter 必须继承 LooprecAdapter
-根据你显示的item数量初始化adapter 继承
+根据你显示的item数量初始化adapter 继承下面构造函数  默认5个
 ```java
 LooprecAdapter(int layoutResId, @Nullable List data, int showitemnum)
 ```
-默认5个 ![]
+
 目前这个recyclerview不能手动滑动 不用添加layoutmanager 目前只能改变滑动速度 
 轮子给你照了 怎么搭配车自己想一下
